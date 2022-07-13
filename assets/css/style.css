@@ -10161,6 +10161,36 @@ textarea.form-control-lg {
   text-transform: none;
 }
 
+.display-1 {
+  font-family: "Secular One", sans-serif;
+  font-size: 3rem;
+}
+
+.heading-line::before {
+  content: "";
+  width: 18rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #6610f2;
+}
+
+.heading-line::after {
+  content: "";
+  padding-top: 0.5rem;
+  width: 2rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  background-color: #6610f2;
+}
+
+.display-3 {
+  font-family: "Secular One", sans-serif;
+  font-size: 5rem;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(102, 16, 242, 0.95), rgba(13, 110, 253, 0.95));
 }
@@ -10207,6 +10237,24 @@ textarea.form-control-lg {
 }
 .border-animation--border-2 {
   animation-delay: 1.5s;
+}
+
+.campanies {
+  padding: 10rem 0 10rem 0;
+}
+.campanies__logo-box {
+  max-width: 100%;
+  height: 9rem;
+  margin-bottom: 2rem;
+  padding: 0.9rem;
+  text-align: center;
+  position: relative;
+}
+.campanies__logo-box img {
+  height: 100%;
+}
+.campanies__logo-box img:hover {
+  filter: grayscale(120);
 }
 
 /*# sourceMappingURL=style.css.map */

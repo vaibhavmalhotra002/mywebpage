@@ -20,3 +20,32 @@
     text-transform: none;
 }
 }
+
+.display-1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 3rem;
+}
+//heading line
+.heading-line::before{
+    content: "";
+    width: 18rem;
+    height:0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $primary;
+}
+.heading-line::after{
+    content: "";
+    padding-top: 0.5rem;
+    width: 2rem;
+    height:0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background-color: $primary;
+}
+
+.display-3{
+    font-family: 'Secular One', sans-serif;
+    font-size: 5rem;
+}
