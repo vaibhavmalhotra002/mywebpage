@@ -48,4 +48,22 @@
 .display-3{
     font-family: 'Secular One', sans-serif;
     font-size: 5rem;
+    &--title{
+        font-size:1rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'Secular One', sans-serif;
+        background-image: linear-gradient(to right,$primary,$secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;    
+        @include media-breakpoint-up(lg){
+            font-size: 1.8rem;}
+        }
 }
+//Border-right
+// .border-right{
+//     border-right: 0.1rem solid $grey300;
+//     height:100%;
+// }

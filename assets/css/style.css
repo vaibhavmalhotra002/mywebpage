@@ -10190,6 +10190,22 @@ textarea.form-control-lg {
   font-family: "Secular One", sans-serif;
   font-size: 5rem;
 }
+.display-3--title {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Secular One", sans-serif;
+  background-image: linear-gradient(to right, #6610f2, #0d6efd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
+}
 
 .menu {
   background: linear-gradient(to right, rgba(102, 16, 242, 0.95), rgba(13, 110, 253, 0.95));
@@ -10255,6 +10271,32 @@ textarea.form-control-lg {
 }
 .campanies__logo-box img:hover {
   filter: grayscale(120);
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services__content {
+  padding: 1rem;
+  margin-top: 0;
+}
+@media (min-width: 992px) {
+  .services__content {
+    margin-top: 5rem;
+  }
+}
+.services__content .icon {
+  font-size: 1.5rem;
+  color: #6610f2;
+}
+@media (min-width: 992px) {
+  .services__content .icon {
+    font-size: 2.5rem;
+  }
+}
+.services__content--pic {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
